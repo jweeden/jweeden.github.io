@@ -1,0 +1,70 @@
+/* GLOBAL */
+
+@font-face {
+font-family: moonBeam;
+src: url(../fonts/moonb.TTF);
+}
+
+.logo {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 35px;
+margin-bottom: 0px;
+}
+
+nav, footer {
+text-align: center;
+}
+
+nav {
+position:fixed;
+width:100%;
+top:0;
+margin: 0 auto; left:0px; right:0px;
+z-index: 10;
+background:rgba(255,255,255, 1);
+box-shadow: 0px 3px 3px #FFF;
+}
+
+h1,h2 {
+text-align: center;
+font-family: moonBeam;
+}
+
+h2 {
+color: green;
+}
+
+h4 {
+font-family: moonBeam;
+color: green;
+}
+
+ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+li {
+display: inline-block;
+width: 100px;
+height: 35px;
+}
+
+a h4:hover, a h4:active {
+transition: 200ms;
+color: rgb(65, 129, 30);
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.project {
+margin-bottom: 200px;
+}
+
+p {
+font-family: sans-serif;
+padding: 0 10px;
+}
+
