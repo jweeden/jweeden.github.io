@@ -1,14 +1,14 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  background-color: rgba(170, 198, 208, .15);
+  background-color: rgba(170, 198, 208, .30);
 }
 
 /* --------------------Background landing------------------------ */
 
 header {
-  background-image: url("../img/TextureDoodle.png");
-  height: 100vh;
+  background-image: url("../img/MacroWoods-red.jpg");
+  height: 50vh;
   background-size: cover;
 
   display: flex;
@@ -18,86 +18,128 @@ header {
 }
 
 .shadow {
-   -moz-box-shadow:    inset 0 0 170px rgba(0, 0, 0, .3);
-   -webkit-box-shadow: inset 0 0 170px rgba(0, 0, 0, .3);
-   box-shadow:         inset 0 0 170px rgba(0, 0, 0, .3);
+ -moz-box-shadow:    inset 0 0 170px rgba(0, 0, 50, .5);
+ -webkit-box-shadow: inset 0 0 170px rgba(0, 0, 50, .5);
+ box-shadow:         inset 0 0 170px rgba(0, 0, 50, .5);
 }
 
 /* -----------------------Nav Styling--------------------------- */
 
-ul {
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400;
-    font-size: .9em;
-    list-style-type: none;
-    margin: 0 0 10vh 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 1);
+nav ul {
+  font-family: 'Lobster', cursive;
+  font-weight: 400;
+  font-size: 1em;
+  list-style-type: none;
+  margin: 0 0 10vh 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #37474f;
 }
 
-li {
-    float: left;
+nav li {
+  float: left;
 }
 
-li a {
-    display: block;
-    color: rgba(255, 255, 255, 1);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+nav li a {
+  display: block;
+  color: #eceff0;
+  text-align: center;
+  font-size: 16px;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-li a:hover {
-    font-weight: 700;
-    color: rgba(0, 0, 0, 1);
-    background-color: rgba(170, 198, 208, 1);
+nav li a:hover {
+  color: #d41f26;
+  background-color: #eceff0;
 }
 
-.active {
-  font-weight: 700;
-  color: rgba(0, 0, 0, 1);
-  background-color: rgba(170, 198, 208, 1);
+nav .active {
+  color: #d41f26;
+  background-color: #eceff0;
 }
 
 
 /* ------------------------------------------------------------ */
 
+
+
 .content {
   max-width: 600px;
   margin: 0 auto 20px;
+  position: relative;
+  padding-bottom: 10vh;
 }
 
-h1, h3, h4 {
-  color: black;
-  font-family: 'Roboto Slab', serif;
+h1, h3 {
+  font-family: 'Lobster', cursive;
 }
 
 h1 {
-
+  color: #d4d9db;
+  text-shadow: 5px 5px 7px rgba(52, 44, 44, 0.5);
   font-weight: 700;
-  font-size: 3em;
+  font-size: 4em;
 }
 
 h4 {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 1em;
+  color: #37474f;
   margin-bottom: 12vh;
 }
 
+.headertext {
+  color: #d4d9db;
+  text-shadow: 5px 5px 7px rgba(52, 44, 44, 0.8);
+}
+
+h4.bars {
+  margin-bottom: 2vh;
+}
+
 h3 {
-  color: rgba(110, 138, 148, 1);
+  color: #d41f26;
   font-weight: 700;
+  font-size: 2em;
   margin: 0 0 2vh 2vw;
 }
 
 p {
-  margin: 0 2vw 10vh 2vw;
+  margin: 5vh 2vw 5vh 2vw;
   font-weight: 300;
+  color: #37474f;
 }
+
 
 p .resume {
   text-decoration: none;
-  color: rgba(48, 61, 66, 1);
+  color: #d41f26;
   font-weight: 700;
+}
+
+h4 .resume {
+  text-decoration: none;
+  color: #d41f26;
+}
+
+h3.spacer {
+  margin-top: 150px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid rgba(84, 110, 122, .15);
+  margin: 1em 0;
+  padding: 0;
+}
+
+img.center {
+  margin-top: 25px;
+	max-width: 100%;
+	border-radius: 3px;
+	box-shadow: 2px 2px 5px rgba(52, 44, 44, 0.3);
 }
