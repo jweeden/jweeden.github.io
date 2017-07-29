@@ -1,76 +1,58 @@
-/*
- * Globals
- */
-
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #555;
-  background-image: url("../img/vanImg/ticks.png");
-  background-color: lightgrey;
+	background: #f4fdf9;
+	font-family: 'Open Sans', sans-serif;
 }
 
-h1, .h1,
-h2, .h2,
-h3, .h3{
-  font-family: 'Oswald', sans-serif;
-  color: #37c669;
+h1, h2, h3 {
+	font-family: 'Oswald', sans-serif;
+    color: #39a04d;
 }
 
-.jumbotron {
-    background-image: url(../img/vanImg/dark_wood.png);
-    background-color: grey;
+section {
+	margin-top:10vh;
 }
 
-.jumbotron h1 {
-    color: #37c669;
-    padding-bottom: 4rem;
+.navbar {
+	border-radius: 0px;
+	position: sticky;
+	top: 0px;
+	z-index: 10;
 }
 
-.postDate {
-    padding-bottom: 1.5rem;
-    font-size: .8em;
-    color: rgba(255, 255, 255, 0.75);
+.navbar-inverse .navbar-brand {
+    color: #39a04d;
 }
 
-.mainpost, .post {
-    font-size: 1.25em;
-    padding:0 2vw;
-    color: #f5fff9;
+.header {
+	margin-bottom: 25vh;
 }
 
-.post {
-    background-color: #1d1d1d;
-    border-radius: 5px;
-    margin-top: 4rem;
+article {
+	margin-bottom: 15vh;
+	background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgba(255,0,0,0), rgba(255,0,0,1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(255,0,0,0), rgba(255,0,0,1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(255,0,0,0), rgba(255,0,0,1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(200,200,200,.2), rgba(255,0,0,0)); /* Standard syntax */
 }
 
-.lastpost{
-    margin-bottom: 10rem;
+.post-img{
+	width: 40%;
+	margin: 5% 0 0 5%;
+}
+.post-img-long{
+	width: 85%;
+	margin: 15px 0 0 0;
 }
 
-.post img{
-    margin-bottom: 2rem;
+img:hover, img:active {
+    box-shadow: 1px 1px 6px #aaa;
 }
 
-.footer {
-    margin-top: 6rem;
-    position: fixed;
-    bottom:0;
-    width: 100%;
-    padding: 1.75rem;
-    color: lightgrey;
-    background-image: url(../img/vanImg/dark_wood.png);
-    background-color: grey;
+em {
+    color: grey;
 }
 
-a {
-    color:#37c669;
-}
-
-a:hover, a:active {
-    color: greenyellow;
-}
-
-.footer a {
-    font-size: 1.2em;
+hr {
+    border-color: rgba(39, 57, 42, 0.1);
 }
